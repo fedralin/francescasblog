@@ -1,0 +1,9 @@
+---
+title: "About Me"
+description: |
+  I am Francesca, a junior at GW majoring in International Affairs and minoring in Journalism and Sustainability. I'm interested in the intersections between sustainability, international affairs, and communications. I'm taking a data journalism course and learning how to code with R to better improve my data visualization and communication skills.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

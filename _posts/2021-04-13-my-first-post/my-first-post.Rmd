@@ -1,0 +1,53 @@
+---
+title: "Making a Map with Labeled Points Using Leaflet"
+description: |
+  In my first post, I'll go over how to create a map highlighting various labeled points within a city using Leaflet.
+author:
+  - name: Francesca Edralin
+    url: https://example.com/norajones
+date: 04-13-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r}
+
+#To create a map with labeled landmarks, I selected my home city of Washington, DC as the focus. First, I downloaded the following packages.
+library(tidyverse)
+library(lubridate)
+library(readxl)
+library(janitor)
+library(glue)
+library(leaflet)
+library(RColorBrewer)
+library(htmlwidgets)
+library(htmltools)
+library(tigris)
+library(tmap)
+library(tmaptools)
+
+
+#Then, I made an excel spreadsheet to document the locations of 4 DC landmarks using the columns "Landmarks, Longitude, and Latitude." I imported the spreadsheet as a .csv and saved it as "DCLandmarks".
+
+DCLandmarks <- read_csv("DCLandmarks.csv")
+
+#I proceeded to make a map with a set view of Washington DC, applying the longitude and latitude values of each landmark to the map. Each landmark was thus marked in the map, with a pop-up label for identification using the "addMarkers" function.
+DCLandmarksmap <- leaflet(data = DCLandmarks[1:3]) %>% 
+  addTiles() %>%
+  setView(-77.0364, 38.8951, zoom = 15) %>%
+  addMarkers(lng=~longitude, lat=~latitude, popup = ~as.character(landmark), label = ~as.character(landmark))
+
+#Check out the finished product!
+DCLandmarksmap
+
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.

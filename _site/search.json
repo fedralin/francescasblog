@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About Me",
+      "description": "I am Francesca, a junior at GW majoring in International Affairs and minoring in Journalism and Sustainability. I'm interested in the intersections between sustainability, international affairs, and communications. I'm taking a data journalism course and learning how to code with R to better improve my data visualization and communication skills.",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-04-19T23:50:37-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Francesca's Website",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-04-19T23:48:46-04:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}

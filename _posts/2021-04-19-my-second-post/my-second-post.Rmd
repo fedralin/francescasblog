@@ -1,0 +1,81 @@
+---
+title: "Making a Shaded Choropleth Map Using Leaflet"
+description: |
+  In my second post, I will go over how to make a shaded choropleth map of the U.S. using Leaflet.
+author:
+  - name: Francesca Edralin
+    url: https://example.com/norajones
+date: 04-19-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r}
+
+#For this runthrough, I am using NYT's nationwide COVID case data by state to produce a choropleth map that documents the amount of deaths per state by February 22 of this year.
+
+#Before starting, I loaded the following packages
+library(tidyverse)
+library(lubridate)
+library(readxl)
+library(janitor)
+library(glue)
+library(leaflet)
+library(RColorBrewer)
+library(htmlwidgets)
+library(htmltools)
+library(tigris)
+library(tmap)
+library(tmaptools)
+
+#First, I imported the NYT's covid case data for states
+covidcases <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv")
+
+#I also downloaded the polygon boundaries for states at the lowest resolution using the tigris package.
+states <- tigris::states(cb=T)
+
+#After reading the csv as "covidcases" and saving the tigris data as "states", I filtered out the covid cases data to just account for data on Feb 22 and selected the columns of state and deaths to group together. I saved this new dataset as "covidfeb22deaths".
+
+covidfeb22deaths <- subset(covidcases, date == "2021-02-22", select=c(state, deaths))
+
+
+#Then, I joined together the data from "states" and "covidfeb22deaths" using the function geo_join, naming the joint data "feb22states". I indicated that the two datasets should be joined by the columns "NAME" (in states) and "state" (in covidfeb22deaths.)
+feb22states <- geo_join(states, covidfeb22deaths, by_sp = "NAME", by_df = "state")
+
+#I specified bin values here to categorize states based on their number of deaths on Feb 22.
+bins <- c(0, 100, 500, 1000, 5000, 10000, 50000, 100000, Inf)
+
+#And I created a color palette with the colors of yellow, orange, and red to link together my bin values with the number of deaths each state had.
+pal <- colorBin("YlOrRd", domain = states$deaths, bins = bins)
+
+#Now onto making the choropleth - I decided to use the Leaflet package to do this. I saved this map as "covidmap", and added the functions needed to pull the data from "feb22states" to a choropleth map of the U.S. I set the view and zoom to see the whole country of the U.S., and used the addPolygons function to set the characteristics of color appearance on the map. I also added a legend on the bottom right corner to indicate what death values each color represents, using the addLegend function.
+covidmap <- leaflet(data=feb22states) %>%
+  addTiles() %>%
+  setView(-98.483330, 38.712046, zoom = 4) %>%
+  addPolygons(data = feb22states, stroke = TRUE, 
+    fillColor = ~pal(deaths),
+    color = "white",
+    weight = 2,
+    opacity = 1,
+    fillOpacity = 0.8,
+    dashArray = "3") %>%
+  addLegend(pal = pal,   
+            values = feb22states,
+            bins = 9,
+            position = "bottomright", 
+            title = "Total Deaths", 
+            labFormat = labelFormat(digits = 0))
+  
+#Check out the finished product!
+covidmap
+
+
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+

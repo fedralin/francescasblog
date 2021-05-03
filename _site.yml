@@ -1,5 +1,5 @@
 name: "francescasblog"
-title: "Francesca's Website"
+title: "Francesca GW Blog"
 description: |
   Francesca's Website
 output_dir: "_site"
@@ -12,20 +12,20 @@ navbar:
       href: about.html
     - text: "Work Samples"
       menu:
-        - text: "Work Sample #1"
-          href: work-sample-1.html
-        - text: "Work Sample #2"
-          href: work-sample-2.html
-        - text: "Work Sample #3"
-          href: work-sample-3.html
-        - text: "Work Sample #4"
-          href: work-sample-4.html
-        - text: "Work Sample #5"
-          href: work-sample-5.html
-        - text: "Work Sample #6"
-          href: work-sample-6.html
+        - text: "Mongabay Article 1"
+          href: https://news.mongabay.com/2020/10/on-a-philippine-island-a-tricky-balancing-act-between-development-and-water/
+        - text: "Mongabay Article 2"
+          href: https://news.mongabay.com/2020/09/coronavirus-caused-by-unbalancing-of-nature-qa-with-indigenous-leader-levi-sucre-romero-4/
+        - text: "Mongabay Article 3"
+          href: https://news.mongabay.com/2020/08/they-outlived-dinosaurs-but-can-glass-sponge-reefs-survive-man-made-warming/
+        - text: "Planet Forward Article 1"
+          href: https://www.planetforward.org/idea/covid-19-emissions-teleworking
+        - text: "Planet Forward Article 2"
+          href: https://www.planetforward.org/idea/plastic-man-cameroon
+        - text: "Planet Forward Video for Comcast"
+          href: https://www.planetforward.org/idea/green-bronx-machine-doc
       - text: "Experience"
-        href: work-experience.html
+        href: experience.html
       - text: "Skills"
         href: skills.html
 output: distill::distill_article

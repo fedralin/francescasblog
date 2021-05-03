@@ -1,0 +1,138 @@
+---
+title: "Experience"
+description: |
+  Below is a highlight of my resume and former work experiences.
+author:
+  - name: Francesca Edralin 
+    url: https://example.com/norajones
+date: 05-03-2021
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+**FRANCESCA EDRALIN**
+
+[**fedralin\@gwu.edu**](mailto:fedralin@gwu.edu) **\| 732-788-4520 \| [LinkedIn](https://www.linkedin.com/in/francesca-edralin-935a5a172/)**
+
+------------------------------------------------------------------------
+
+**EDUCATION**
+
+**The George Washington University (Expected Graduation: December 2021)**
+
+-   Freshman Year: Elizabeth J. Somers Women's Leadership Program, International Politics Cohort
+
+-   **Bachelor of Arts in International Affairs with minors in Sustainability and Journalism/Mass Communication**
+
+-   Cumulative GPA: 3.77 (Dean's List: Fall 2019, Spring 2020, Fall 2020)
+
+------------------------------------------------------------------------
+
+**WORK EXPERIENCE**
+
+**STATE DEPARTMENT: VSFS Research Intern (August 2020-Present)**
+
+-   Works in small team to conduct research on environmental conflicts, community displacement, and human rights concerns for the Bureau of Oceans and International Environmental and Scientific Affairs, currently focusing on the Philippines and Indonesia
+
+-   Develops 300-slide presentations per country on background, policies, specific case studies, and look-fors, which I help deliver as presentations to Embassies, State and USAID officials, and other key stakeholders
+
+-   Analyzes and summarizes trends to help inform policy recommendations to Embassies and stakeholders
+
+**PULITZER CENTER ON CRISIS REPORTING: Intern (December 2020-Present)**
+
+-   Supports the Rainforest Journalism Fund (RJF), the Pulitzer Center's recent investment in international climate reporting
+
+-   Works with researchers, journalists and media contacts in the Amazon, Congo Basin, and Southeast Asia regions to produce on-the-ground stories on underreported environmental and human rights topics ranging from community resilience, migration, and ecosystem restoration
+
+-   Tracks stories' audience reach and influence on policy change using platforms like Salesforce and Coveragebooks, and shares stories to relevant organizations and media points for further publication
+
+**INTERNATIONAL FOOD POLICY RESEARCH INSTITUTE: Communications Intern (September 2020-December 2020)**
+
+-   Wrote articles on key research findings related to the fields of climate adaptation and migration, rural community resilience, and food security, collaborating with IFPRI's research experts
+
+-   Aided in the logistical planning and execution of weekly panel events, including registration, live-tweeting, managing Q&A, and writing event summary posts
+
+-   Drafted and planned social media content to announce groundbreaking research, articles, or panel events to social media audiences
+
+**USAID GLOBAL DEVELOPMENT LAB: Innovation Intern (May 2020-August 2020)**
+
+-   Conducted research on various international development issues (including food security, environment, refugees, gender inequality, agriculture, clean water) to support key messaging towards the Lab's various projects and competitions
+
+-   Created communication materials (presentations, social media posts, blogs etc.) to perform outreach to potential stakeholders and present the Lab's work to key audiences
+
+-   Reviewed and provided feedback on project proposals for various Lab competitions, including the BetterTogether Challenge (which focuses on the Venezuela refugee crisis) and RISE (which focuses on addressing gender inequality in environmental programming)
+
+**SUSTAINABLE GW: Community Engagement Assistant (September 2019-Present)**
+
+-   Coordinates and executes the GW Sustainability department's events on campus and online, including panels and annual Summit
+
+-   Serves as a student liaison for students interested in the Sustainability minor and environmental academic programming to SustainableGW
+
+-   Manages SustainableGW's "Sustainability Snapshot" feature on website, covering the various events, people, and opportunities on campus that contribute to the local sustainability movement
+
+**COUNCIL ON FOREIGN RELATIONS: Global Communications and Media Relations Intern (January 2020-May 2020)**
+
+-   Ran press registration at weekly on-the-record events about foreign policy issues
+
+-   Conducted research and built targeted press outreach lists for books, newsletters, podcasts, and other reports using databases like Cision and CRM
+
+-   Attended high-level meetings and compiled key quotes and points for promotional purposes
+
+**FUNDACIÓN BIOSFERA: Research/Advocacy Intern (June 1019-July 2019)**
+
+-   Interned at the top environmental NGO in La Plata, Buenos Aires to conduct research and help draft reports on environmental issues facing the Buenos Aires community 
+
+-   Created digital advocacy campaigns and ran all social media accounts
+
+------------------------------------------------------------------------
+
+**LEADERSHIP EXPERIENCE**
+
+**GW UNICEF: President (September 2018-Present)**
+
+-   Previously served as Freshman Ambassador, Public Relations Chair, and Vice President
+
+-   Leads operations of executive board and the execution of programming and events, runs social media accounts and newsletter
+
+-   Fosters partnerships with other school organizations and represents organization to school administration
+
+**GW UN360 PROGRAM (September 2020-Present)**
+
+-   A GW program that selects 25 student leaders out of 200 applicants to explore the United Nations and their partner organizations 
+
+-   Attends weekly site visits, lectures, and workshops to deepen understanding of the UN's mission and work in sustainable development
+
+-   Connects with professionals in various fields to better understand the work within various sustainable development organizations
+
+**THINKOCEAN: Director of Global Outreach (January 2019-September 2020)**
+
+-   Led the Global Outreach Team of ThinkOcean, a network of youth-led environmental organizations from over 20 countries
+
+-   Planned and executed online advocacy initiatives, as well as presented ThinkOcean's work at international panels and advocacy events
+
+-   Targeted new audiences for outreach and partnerships, as well as maintained current partnerships with sponsors
+
+------------------------------------------------------------------------
+
+**ADDITIONAL INFORMATION**
+
+-   2021 Comcast/NBCUniversal Sustainable Storytelling Fellow
+
+-   Planet Forward StoryFest Winner, 2021
+
+-   Onero Institute's "Foreign Affairs with Future Leaders" Distinguished Speaker, 2020
+
+-   GW Women's Leadership Program Humphries Award, 2020
+
+-   Taco Bell Live Más Scholar, 2018, 2019, 2020
+
+-   EF Tours Global Citizen Scholarship Recipient and Innovation Village Winner, 2017
+
+------------------------------------------------------------------------
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.

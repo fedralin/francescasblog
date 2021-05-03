@@ -3,10 +3,32 @@ title: "Francesca's Website"
 description: |
   Francesca's Website
 output_dir: "_site"
+base_url: "https://francescaedralin.netlify.app/"
 navbar:
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Work Samples"
+      menu:
+        - text: "Work Sample #1"
+          href: work-sample-1.html
+        - text: "Work Sample #2"
+          href: work-sample-2.html
+        - text: "Work Sample #3"
+          href: work-sample-3.html
+        - text: "Work Sample #4"
+          href: work-sample-4.html
+        - text: "Work Sample #5"
+          href: work-sample-5.html
+        - text: "Work Sample #6"
+          href: work-sample-6.html
+      - text: "Experience"
+        href: work-experience.html
+      - text: "Skills"
+        href: skills.html
 output: distill::distill_article
+collections:
+  posts:
+    share: [twitter, linkedin, facebook]

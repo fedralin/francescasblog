@@ -4,7 +4,7 @@ description: |
   Below is a highlight of my resume and former work experiences.
 author:
   - name: Francesca Edralin 
-    url: https://example.com/norajones
+    url: https://francescaedralin.netlify.app/
 date: 05-03-2021
 output: distill::distill_article
 ---
@@ -135,4 +135,4 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Distill is a publication format for scientific and technical writing, native to the web.
 
-Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
+Learn more about using Distill for R Markdown at [<https://rstudio.github.io/distill>](https://rstudio.github.io/distill){.uri}.

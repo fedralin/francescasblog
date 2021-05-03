@@ -1,5 +1,5 @@
 name: "francescasblog"
-title: "Francesca GW Blog"
+title: "Francesca's Blog"
 description: |
   Francesca's Website
 output_dir: "_site"
@@ -10,6 +10,10 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Experience"
+      href: Experience.html
+    - text: "Skills"
+      href: Skills.html
     - text: "Work Samples"
       menu:
         - text: "Mongabay Article 1"
@@ -24,10 +28,6 @@ navbar:
           href: https://www.planetforward.org/idea/plastic-man-cameroon
         - text: "Planet Forward Video for Comcast"
           href: https://www.planetforward.org/idea/green-bronx-machine-doc
-      - text: "Experience"
-        href: experience.html
-      - text: "Skills"
-        href: skills.html
 output: distill::distill_article
 collections:
   posts:

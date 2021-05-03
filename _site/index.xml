@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Francesca's Blog</title>
+    <link>https://francescaedralin.netlify.app/</link>
+    <atom:link href="https://francescaedralin.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Francesca's Website
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Mon, 19 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Making a Shaded Choropleth Map Using Leaflet</title>
+      <dc:creator>Francesca Edralin</dc:creator>
+      <link>https://francescaedralin.netlify.app/posts/2021-04-19-my-second-post</link>
+      <description>In my second post, I will go over how to make a shaded choropleth map of the U.S. using Leaflet.</description>
+      <guid>https://francescaedralin.netlify.app/posts/2021-04-19-my-second-post</guid>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Making a Map with Labeled Points Using Leaflet</title>
+      <dc:creator>Francesca Edralin</dc:creator>
+      <link>https://francescaedralin.netlify.app/posts/2021-04-13-my-first-post</link>
+      <description>In my first post, I'll go over how to create a map highlighting various labeled points within a city using Leaflet.</description>
+      <guid>https://francescaedralin.netlify.app/posts/2021-04-13-my-first-post</guid>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome to Francesca's Website</title>
+      <dc:creator>Francesca Edralin</dc:creator>
+      <link>https://francescaedralin.netlify.app/posts/welcome</link>
+      <description>Welcome to Francesca's Website. I hope you enjoy 
+reading my blogs and learn more tricks on how to code with R!</description>
+      <guid>https://francescaedralin.netlify.app/posts/welcome</guid>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

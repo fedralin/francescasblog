@@ -1,19 +1,33 @@
 ---
 title: "Skills"
 description: |
-  Below is a highlight of my professional skills.
+  Below is a highlight of my professional expertise and skills.
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
-date: "`r Sys.Date()`"
+  - name: Francesca Edralin 
+    url: https://francescaedralin.netlify.app/
+date: 05-03-21
 output: distill::distill_article
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+**Areas of Expertise:**
+
+-   Environmental Policy
+
+-   Sustainability
+
+-   International Development
+
+-   Human Rights
+
+-   Environmental Journalism
+
+-   Strategic Communications
+
+-   Media Relations
 
 **Technical Skills:**
 
@@ -34,6 +48,8 @@ knitr::opts_chunk$set(echo = FALSE)
 -   Leadership
 
 -   Data Visualization
+
+-   Media Pitching
 
 **Platforms:**
 

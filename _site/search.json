@@ -6,14 +6,42 @@
       "description": "I am Francesca, a junior at GW majoring in International Affairs and minoring in Journalism and Sustainability. I'm interested in the intersections between sustainability, international affairs, and communications. I'm taking a data journalism course and learning how to code with R to better improve my data visualization and communication skills.",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-19T23:50:37-04:00"
+      "last_modified": "2021-05-03T19:26:38-04:00"
+    },
+    {
+      "path": "Experience.html",
+      "title": "Experience",
+      "description": "Below is a highlight of my resume and former work experiences.\n",
+      "author": [
+        {
+          "name": "Francesca Edralin",
+          "url": "https://francescaedralin.netlify.app/"
+        }
+      ],
+      "date": "05-03-2021",
+      "contents": "\nFRANCESCA EDRALIN\nfedralin@gwu.edu | 732-788-4520 | LinkedIn\nEDUCATION\nThe George Washington University (Expected Graduation: December 2021)\nFreshman Year: Elizabeth J. Somers Women’s Leadership Program, International Politics Cohort\nBachelor of Arts in International Affairs with minors in Sustainability and Journalism/Mass Communication\nCumulative GPA: 3.77 (Dean’s List: Fall 2019, Spring 2020, Fall 2020)\nWORK EXPERIENCE\nSTATE DEPARTMENT: VSFS Research Intern (August 2020-Present)\nWorks in small team to conduct research on environmental conflicts, community displacement, and human rights concerns for the Bureau of Oceans and International Environmental and Scientific Affairs, currently focusing on the Philippines and Indonesia\nDevelops 300-slide presentations per country on background, policies, specific case studies, and look-fors, which I help deliver as presentations to Embassies, State and USAID officials, and other key stakeholders\nAnalyzes and summarizes trends to help inform policy recommendations to Embassies and stakeholders\nPULITZER CENTER ON CRISIS REPORTING: Intern (December 2020-Present)\nSupports the Rainforest Journalism Fund (RJF), the Pulitzer Center’s recent investment in international climate reporting\nWorks with researchers, journalists and media contacts in the Amazon, Congo Basin, and Southeast Asia regions to produce on-the-ground stories on underreported environmental and human rights topics ranging from community resilience, migration, and ecosystem restoration\nTracks stories’ audience reach and influence on policy change using platforms like Salesforce and Coveragebooks, and shares stories to relevant organizations and media points for further publication\nINTERNATIONAL FOOD POLICY RESEARCH INSTITUTE: Communications Intern (September 2020-December 2020)\nWrote articles on key research findings related to the fields of climate adaptation and migration, rural community resilience, and food security, collaborating with IFPRI’s research experts\nAided in the logistical planning and execution of weekly panel events, including registration, live-tweeting, managing Q&A, and writing event summary posts\nDrafted and planned social media content to announce groundbreaking research, articles, or panel events to social media audiences\nUSAID GLOBAL DEVELOPMENT LAB: Innovation Intern (May 2020-August 2020)\nConducted research on various international development issues (including food security, environment, refugees, gender inequality, agriculture, clean water) to support key messaging towards the Lab’s various projects and competitions\nCreated communication materials (presentations, social media posts, blogs etc.) to perform outreach to potential stakeholders and present the Lab’s work to key audiences\nReviewed and provided feedback on project proposals for various Lab competitions, including the BetterTogether Challenge (which focuses on the Venezuela refugee crisis) and RISE (which focuses on addressing gender inequality in environmental programming)\nSUSTAINABLE GW: Community Engagement Assistant (September 2019-Present)\nCoordinates and executes the GW Sustainability department’s events on campus and online, including panels and annual Summit\nServes as a student liaison for students interested in the Sustainability minor and environmental academic programming to SustainableGW\nManages SustainableGW’s “Sustainability Snapshot” feature on website, covering the various events, people, and opportunities on campus that contribute to the local sustainability movement\nCOUNCIL ON FOREIGN RELATIONS: Global Communications and Media Relations Intern (January 2020-May 2020)\nRan press registration at weekly on-the-record events about foreign policy issues\nConducted research and built targeted press outreach lists for books, newsletters, podcasts, and other reports using databases like Cision and CRM\nAttended high-level meetings and compiled key quotes and points for promotional purposes\nFUNDACIÓN BIOSFERA: Research/Advocacy Intern (June 1019-July 2019)\nInterned at the top environmental NGO in La Plata, Buenos Aires to conduct research and help draft reports on environmental issues facing the Buenos Aires community \nCreated digital advocacy campaigns and ran all social media accounts\nLEADERSHIP EXPERIENCE\nGW UNICEF: President (September 2018-Present)\nPreviously served as Freshman Ambassador, Public Relations Chair, and Vice President\nLeads operations of executive board and the execution of programming and events, runs social media accounts and newsletter\nFosters partnerships with other school organizations and represents organization to school administration\nGW UN360 PROGRAM (September 2020-Present)\nA GW program that selects 25 student leaders out of 200 applicants to explore the United Nations and their partner organizations \nAttends weekly site visits, lectures, and workshops to deepen understanding of the UN’s mission and work in sustainable development\nConnects with professionals in various fields to better understand the work within various sustainable development organizations\nTHINKOCEAN: Director of Global Outreach (January 2019-September 2020)\nLed the Global Outreach Team of ThinkOcean, a network of youth-led environmental organizations from over 20 countries\nPlanned and executed online advocacy initiatives, as well as presented ThinkOcean’s work at international panels and advocacy events\nTargeted new audiences for outreach and partnerships, as well as maintained current partnerships with sponsors\nADDITIONAL INFORMATION\n2021 Comcast/NBCUniversal Sustainable Storytelling Fellow\nPlanet Forward StoryFest Winner, 2021\nOnero Institute’s “Foreign Affairs with Future Leaders” Distinguished Speaker, 2020\nGW Women’s Leadership Program Humphries Award, 2020\nTaco Bell Live Más Scholar, 2018, 2019, 2020\nEF Tours Global Citizen Scholarship Recipient and Innovation Village Winner, 2017\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.\n\n\n\n",
+      "last_modified": "2021-05-03T19:26:39-04:00"
     },
     {
       "path": "index.html",
       "title": "Francesca's Website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-20T00:40:01-04:00"
+      "last_modified": "2021-05-03T19:26:39-04:00"
+    },
+    {
+      "path": "Skills.html",
+      "title": "Skills",
+      "description": "Below is a highlight of my professional expertise and skills.\n",
+      "author": [
+        {
+          "name": "Francesca Edralin",
+          "url": "https://francescaedralin.netlify.app/"
+        }
+      ],
+      "date": "05-03-21",
+      "contents": "\nAreas of Expertise:\nEnvironmental Policy\nSustainability\nInternational Development\nHuman Rights\nEnvironmental Journalism\nStrategic Communications\nMedia Relations\nTechnical Skills:\nGraphic Design\nSocial Media\nVideo Production\nWriting\nInterviewing\nNewsletters\nPublic Speaking\nLeadership\nData Visualization\nMedia Pitching\nPlatforms:\nGoogle Suite\nMicrosoft Suite\nAdobe Premiere Pro\nMailchimp\nCanva\nInstagram, Twitter, Facebook\nGoogle Analytics\nHootsuite\nCision\nR Studio\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
+      "last_modified": "2021-05-03T19:26:40-04:00"
     }
   ],
   "collections": ["posts/posts.json"]
